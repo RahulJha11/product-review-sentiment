@@ -57,7 +57,7 @@ Ensure you have the following installed:
    ```
 
 4. **Set Environment Variables**
-   Create a `.env` file in the root directory with the following:
+   Create a `.env` file in the fastapi_app directory with the following:
 
    ```env
    SERVICE_NAME= Producr Review sentiment
