@@ -81,7 +81,11 @@ Ensure you have the following installed:
    docker plugin enable loki
    ```
 
-7. Review the dashboard that has been predetermined Product Review Observability on Grafana: http://localhost:3000/ Log in with the following credentials: admin:admin
+7. ### Observability Configuration
+
+- Review the dashboard that has been predetermined Product Review Observability on Grafana: http://localhost:3000/ Log in with the following credentials: admin:admin
+- Logs and traces are automatically collected by Loki and Tempo.
+  
 
     Dashboard Screenshot
 
@@ -112,10 +116,10 @@ Ensure you have the following installed:
     "discount": "399"}], "review_sentiment": {"sentiment": "Positive"}}]
     ```
 
-### Observability Configuration
+    Postman screenshot
+    ![Alt text](data/postman_screenshot.png)
 
-- Access Grafana dashboard at `http://localhost:3000` (default credentials: `admin`/`admin`).
-- Logs and traces are automatically collected by Loki and Tempo.
+
 
 ## Contributing
 
