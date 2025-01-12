@@ -84,11 +84,16 @@ Ensure you have the following installed:
     ```
     url = "http://localhost:5000/api/product-review/infoextractor"
 
-payload = {'reviewtext': 'Product Name: Wayona Nylon Braided USB to Lightning Fast Charging and Data Sync Cable Compatible for iPhone 13, 12,11, X, 8, 7, 6, 5, iPad Air, Pro, Mini (3 FT Pack of 1, Grey), Category: Computers&Accessories > Accessories&Peripherals > Cables&Accessories > Cables > USBCables, Discounted Price: ₹399, Actual Price: ₹1,099, Rating: 4.2, Review Content: Looks durable Charging is fine tooNo complains,Charging is really fast, good product.,Till now satisfied with the quality.,This is a good product . The charging speed is slower than the original iPhone cable,Good quality, would recommend,https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/81---F1ZgHL._SY88.jpg,Product had worked well till date and was having no issue.Cable is also sturdy enough...Have asked for replacement and company is doing the same...,Value for money'}
-files=[
-
-]
-headers = {}
+    payload = {'reviewtext': 'Product Name: Wayona Nylon Braided USB to Lightning Fast Charging and Data Sync Cable Compatible for iPhone 13, 12,11, X, 8, 7, 6, 5, iPad     
+    Air, Pro, Mini (3 FT Pack of 1, Grey), Category: Computers&Accessories > Accessories&Peripherals > Cables&Accessories > Cables > USBCables, Discounted Price: ₹399, 
+    Actual Price: ₹1,099, Rating: 4.2, Review Content: Looks durable Charging is fine tooNo complains,Charging is really fast, good product.,Till now satisfied with the 
+    quality.,This is a good product . The charging speed is slower than the original iPhone cable,Good quality, would recommend,https://m.media- 
+    amazon.com/images/W/WEBP_402378-T1/images/I/81---F1ZgHL._SY88.jpg,Product had worked well till date and was having no issue.Cable is also sturdy enough...Have asked for 
+    replacement and company is doing the same...,Value for money'}
+    files=[
+    
+    ]
+    headers = {}
     ```
   - **Response**:
     ```json
