@@ -117,7 +117,7 @@ Ensure you have the following installed:
     ```
 
     Postman screenshot
-    ![Alt text](data/postman_Screenshot.png)
+    ![Alt text](data/postman_screenshot.png)
 
 
 
