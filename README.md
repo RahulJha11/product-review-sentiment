@@ -80,7 +80,7 @@ Ensure you have the following installed:
 
 - **POST /extract**
   - **Description**: Extracts product information from text and determines sentiment from the input text.
-  - **Request Body example**:
+  - **Request Body example**: In the request body, you can submit a text string or a CSV file as reviewtext and csvfile, respectively.
     ```
     url = "http://localhost:5000/api/product-review/infoextractor"
 
@@ -97,13 +97,8 @@ Ensure you have the following installed:
     ```
   - **Response**:
     ```json
-    {
-      "key_values": {
-        "key1": "value1",
-        "key2": "value2"
-      },
-      "sentiment": "positive"
-    }
+    [{"Product_details": [{"product_name": "Wayona Nylon Braided USB to Lightning Fast Charging and Data Sync Cable", "tpye": "Computers&Accessories", "price": "1099",   
+    "discount": "399"}], "review_sentiment": {"sentiment": "Positive"}}]
     ```
 
 ### Observability Configuration
