@@ -132,5 +132,5 @@ Feel free to submit issues or pull requests to improve the project.
 
 ## Contact
 
-For questions or support, please contact Rahul Jha or open an issue in the repository.
+For questions or support, please @https://www.linkedin.com/in/rahul-jha-2429b0136/ or open an issue in the repository.
 
