@@ -26,7 +26,7 @@ This repository features a project that employs the Anthropic Sonnet 3.5 LLMM to
 
 Ensure you have the following installed:
 
-- Python 3.8+
+- Python 3.10
 - Docker (for running observability tools)
 - A valid API key or access credentials for Anthropic Sonnet
 
@@ -75,6 +75,17 @@ Ensure you have the following installed:
    ```bash
    docker-compose up -d
    ```
+   If got the error message Error response from daemon: error looking up logging plugin loki: plugin loki found but disabled, please run the following command to enable the    plugin:
+
+   ```bash
+   docker plugin enable loki
+   ```
+
+7. Review the dashboard that has been predetermined Product Review Observability on Grafana: http://localhost:3000/ Log in with the following credentials: admin:admin
+
+    Dashboard Screenshot
+
+   ![Alt text](data/screenshot.png)
 
 ### API Endpoints
 
