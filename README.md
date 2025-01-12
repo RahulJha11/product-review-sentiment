@@ -1,10 +1,14 @@
-# Text Extraction and Sentiment Analysis API with Observability
+# Information extraction from Product-Review-Texts and Sentiment Analysis API with Observability
 
 This repository features a project that employs the Anthropic Sonnet 3.5 LLMM to extract key-value pairs from text and assess the sentiment of the text. The application utilizes FastAPI for API development and integrates a complete observability stack comprising OpenTelemetry, Grafana, Tempo, and Loki.
 
+## About the Project
+
+The goal of this research is to examine product reviews. It offers the ability to perform sentiment analysis to the reviews and extract important information (key-value pairs). Input to the FastAPI endpoint can be either a CSV file (for batch reviews) or a string (for single reviews). Effective sentiment analysis and relevant information extraction are the primary objectives.
+
 ## Features
 
-- **Key-Value Extraction**: automatically extracts structured information from unstructured text inputs.
+- **Information Extraction**: Automatically extracts structured information from unstructured text inputs.
 - **Sentiment Analysis**: Analyzes the sentiment (positive, negative, or neutral) of the provided text.
 - **FastAPI Endpoint**: Provides a RESTful interface for easy integration.
 - **Observability**:
@@ -16,7 +20,7 @@ This repository features a project that employs the Anthropic Sonnet 3.5 LLMM to
 ## Technologies Used
 
 - **Programming Language**: Python
-- **LLM**: Anthropic Sonnet
+- **LLM**: Anthropic Sonnet 3.5
 - **API Framework**: FastAPI
 - **Observability Stack**: OpenTelemetry, Grafana, Tempo, Loki
 
